@@ -144,7 +144,7 @@ namespace TestTriangle.nUnitTests
             Assert.AreEqual("A scalene triangle is formed", result);
         }
 
-        // Zero Length Side Tests
+        // Zero Length For One or More Side Tests
         [Test]
         public void AnalyzeTriangle_ZeroLengthSide_ReturnsInvalid()
         {
